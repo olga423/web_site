@@ -1,0 +1,315 @@
+
+body {
+    color: #4b4b4b;
+    background-color: #F7F7F7 ;
+    line-height: 1.45;
+}
+.container-item {
+	padding: 0 40px;  
+}
+
+ /**    HEADER-TOP     ***/
+
+.header-top {
+    padding: 1.1rem 0px;
+    background-color: #fff;
+}
+.header-button, .header-phone {
+    color: #2E394E;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    font-size: 15px;
+}
+
+.header-button {
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+}
+.header-phone {
+    background-image: url(../icon/phone.svg);
+    background-repeat: no-repeat;
+    background-position: 4% 57%;
+    background-size: 0.8rem;
+    padding-left: 20px;
+}
+.header-button:hover {
+    color: #2E394E;
+}
+
+
+/**   NAVBAR    **/
+.navbar {
+    background-color: #fff;
+    border: 1px solid #E7E7E7;
+    padding: 0;
+    height: 3.3rem;
+}
+.navbar-brand {
+    display: none;
+}
+.navbar .navbar-toggler {
+    padding: 0.25rem  0rem;
+}
+.navbar .navbar-toggler:focus {
+     outline: none;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url(../icon/menu.svg);
+}
+
+.navbar-nav .nav-item a.nav-link {
+    font-size: 15px;
+    color: #2E394E;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    padding: 0;
+}
+
+.navbar-nav .nav-item a.nav-link:hover, .navbar-nav .nav-item a.nav-link:focus  {
+     color: #F05A4F;
+     border-bottom: 3px solid #F05A4F;
+     opacity: 0.9;
+}
+
+.navbar-nav .dropdown-menu {
+      border: none;
+      border-radius: 0;
+      top: 99%;
+      font-size: 15px;
+      box-shadow: 0 2px 6px 0 #C7C7C7;
+}
+.navbar-nav .dropdown-menu .dropdown-item {
+      color: #2E394E;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+      color: #B5B5B5;
+      text-decoration: none;
+       background-color: #fff;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+.navbar-nav .nav-item a.nav-link svg {
+    width: 0.7rem;
+    height: 0.7rem;
+    fill: #2E394E;
+    transition: all 0.3s;
+}
+.navbar-nav .nav-item a.nav-link:hover svg {
+      fill: #F05A4F;
+      opacity: 0.9;
+}
+a.navbar-button{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    color: #F05A4F;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #F05A4F;
+    padding: .5rem .75rem;
+    letter-spacing: 0.4px;
+    transition: all .3s;
+  }
+a.navbar-button:hover {
+     color: #fff;
+     background-color: #F05A4F;
+     text-decoration: none;
+}
+
+/**   ITEM       **/
+.section-item {
+   padding: 45px 0px 60px 0px;
+}
+.section-title {
+    margin-bottom: 2rem;
+}
+.block-item {
+	max-width: 660px;
+    margin: 0 auto;
+    
+}
+.box-item-one {
+   margin-bottom: 2.2rem;
+}
+.box-item-two, .box-item-one {
+   background-image: url(../icon/verified.svg);
+   background-repeat: no-repeat;
+   background-position: 0% 6%;
+   background-size: 2.5rem;
+   padding-left: 60px;
+}
+
+
+/**      footer      **/
+.footer {
+     color: #fff;
+     background-color: #2E394E;
+}
+.footer span {
+     font-size: 0.85rem;
+}
+
+/**    общие стили для всех модальных окон      */
+.modal-title-phone {
+     margin-bottom: 1rem;
+     font-size: 1.3rem;
+}
+.modal-header {
+     border-bottom: none;
+     padding: 0.5rem 0.5rem;
+}
+.modal-input {
+     border-radius: 0;
+}
+.modal input:focus, .modal select:focus {
+     border-color: #2C3238;
+     box-shadow: none;
+}
+.modal-button {
+     margin-bottom: 1.2rem;
+     border: 0;
+     color: #fff;
+     background-color: #F05A4F;
+     padding: .375rem .75rem;
+}
+.modal-button:hover {
+    background-color: #D63B2F ;
+    box-shadow: 4px 6px 7px #C0C6CC;
+}
+.close {
+  font-size: 2rem;
+  line-height: 0.5;
+}
+.modal-body>.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.modal-body form {
+     display: flex;
+    flex-flow: column;
+}
+/*****                   ****/
+
+
+/**   Модальное окно "Оставить заявку"   **/
+.modal select {
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../icon/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    background-size: 0.85rem 0.85rem;
+}
+
+.form-check {
+    display: flex;
+    flex-flow: nowrap;
+    padding-left: 22px;
+}
+.check-box1 {
+    margin-bottom: 0.3rem;
+}
+.check-box2 {
+    margin-bottom: 1.8rem;
+}
+.form-check-label {
+    font-size: 14px;
+}
+
+/**     медиа запросы         **/
+@media (min-width: 1200px) { 
+    .container-item {
+        max-width: 1150px;  
+}
+}
+@media (min-width: 992px) { 
+    .navbar-nav .nav-item .nav-link {
+       padding-left: 0rem;
+       margin-right: 1.8rem;
+}
+}
+
+@media (max-width: 991.98px) {
+	.header-top {
+        display: none;
+    }
+    .navbar {
+      height: 3.7rem;
+      padding: 9px 0px;
+    }
+  .navbar-expand-lg>.container-fluid {
+          padding: 0 40px;
+    }
+
+    a.navbar-button {
+        display: block;
+        margin-left: 0rem;
+        margin-top: 0.8rem;
+}
+    .navbar-brand {
+       display: inline-block;
+       line-height: 0.7rem;
+}
+    .navbar-collapse {
+        background-color: #fff;
+        padding: 20px;
+    
+    }
+  .navbar-nav .dropdown-menu {
+       box-shadow: none;
+       padding: 0;
+  }
+  .navbar-nav .nav-item a.nav-link {
+       height: 2.2rem;
+       line-height: 2.2rem;
+  }
+  .navbar-nav .nav-item a.nav-link:hover {
+         border-bottom: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+     .section-item {
+     	  padding-top: 30px;
+     }
+	 .block-item {
+        padding: 0 26px;
+        max-width: 737px;
+        margin: 0;
+}  
+}
+
+@media (max-width: 575.98px) {
+      .container-fluid {
+        padding: 0 30px;
+}
+      .navbar-expand-lg>.container-fluid {
+          padding: 0 30px;
+    }
+      .block-item {
+        padding: 0 5px;
+   }
+      .box-item-two, .box-item-one {
+        background-image: none;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 428px) {
+      .section-title {
+      	  font-size: 1.3rem;
+      }
+
+}
+
+
+
