@@ -583,12 +583,6 @@ a.question-link:hover, a.question-link:focus  {
     .block-reviews {
       padding: 2.5rem;
   }
-   .question {
-       max-height: 560px;
-}
-   .question-block {
-       margin-bottom: 0px;
-}
    .question-box {
        max-width: 100%;
        margin: 0;
@@ -620,9 +614,6 @@ a.question-link:hover, a.question-link:focus  {
     }
     .courses .card {
         min-height: 225px;
-    }
-    .question {
-        max-height: 620px;
     }
     .contacts-block {
         display: flex;
@@ -656,7 +647,6 @@ a.question-link:hover, a.question-link:focus  {
         background-image: none;
         color: #000053;
         border-bottom: 1px solid #000053;
-        
     }
     .top-container h1 {
          font-size: 2rem;
@@ -669,7 +659,6 @@ a.question-link:hover, a.question-link:focus  {
         margin-bottom: 1.5rem;
         margin-top: 0;
     }
-
     .carousel-control-prev, .carousel-control-next {
         top: 90%;
   }
@@ -686,9 +675,6 @@ a.question-link:hover, a.question-link:focus  {
    .carousel-control-prev {
       left: 83%;
 } 
-    .question {
-        min-height: 540px;
-}     
     a.question-link {
        padding: 1.1rem 1rem;
        font-size: 12px;
@@ -715,9 +701,6 @@ a.question-link:hover, a.question-link:focus  {
     .navbar-expand-lg>.container-fluid {
         padding: 0 10px;
     }
-    .question {
-        min-height: 595px;
-}
     a.question-link {
        padding: 1.1rem 0.5rem;
        font-size: 12px;
@@ -731,6 +714,9 @@ a.question-link:hover, a.question-link:focus  {
     .top-container {
         height: 52vmax;
 }
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
 }
 
  @media (max-width: 889.98px) {
@@ -750,9 +736,6 @@ a.question-link:hover, a.question-link:focus  {
        padding-left: 0rem;
        margin-right: 1.8rem;
 }
-    .question {
-       max-height: 545px;
- }
 }
 
 
