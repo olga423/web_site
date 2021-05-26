@@ -726,6 +726,7 @@ a.question-link:hover, a.question-link:focus  {
         font-size: 14px;
     }
 }
+
 @media (max-width: 321.98px) {
     .top-container {
         height: 52vmax;
