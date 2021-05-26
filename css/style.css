@@ -169,7 +169,7 @@ a.navbar-call {
 .top-container h1 {
      margin-bottom: 2.7rem;
 }
-.top-text-one, .top-text-two {
+.top-text {
     font-size: 1.1rem;
     letter-spacing: -0.5px;
 }  
@@ -660,13 +660,16 @@ a.question-link:hover, a.question-link:focus  {
     }
     .top-container h1 {
          font-size: 2rem;
-     }
-    .top-container h1, .top-text-two {
          margin-bottom: 1rem;
-}   
-    .top-text-one, .top-text-two  {
-        font-size: 14px;
      }
+    .top-text {
+        font-size: 0.9rem;
+    }
+    .top-text-two {
+        margin-bottom: 1.5rem;
+        margin-top: 0;
+    }
+
     .carousel-control-prev, .carousel-control-next {
         top: 90%;
   }
@@ -695,32 +698,23 @@ a.question-link:hover, a.question-link:focus  {
     }
 }
 
-@media (max-width: 465px) { 
-    .top-container {
-        height: 45vmax;
-      }
-    .top-text-one, .top-text-two {
-        font-size: 13px;
+@media (max-width: 413.98px) { 
+     .top-container h1 {
+        font-size: 1.8rem;
+     }
+     .top-container {
+        height: 35vmax;
 }
+    
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375.98px) {
     .container-fluid {
         padding: 0 10px;
 }
     .navbar-expand-lg>.container-fluid {
         padding: 0 10px;
     }
-    .navbar-collapse {
-        height: 89vmax;
-      }
-
-    .top-container h1, .top-text-two {
-        margin-bottom: 1rem;
-        }
-    .top-container h1 {
-        font-size: 1.8rem;
-     }
     .question {
         min-height: 595px;
 }
@@ -732,6 +726,12 @@ a.question-link:hover, a.question-link:focus  {
         font-size: 14px;
     }
 }
+@media (max-width: 319.98px) {
+    .top-container {
+        height: 52vmax;
+}
+}
+
  @media (max-width: 889.98px) {
     .box-media {
        flex-direction: column;
