@@ -159,7 +159,7 @@ a.navbar-call {
     background-position: left top;
     max-width: 1300px;
     margin: 0 auto;
-    height: 39vmax;
+    height: 40vmax;
     color: #fff;
     letter-spacing: -0.4px;
 }
@@ -178,7 +178,7 @@ a.navbar-call {
 }
 .top-text-two {
      margin-top: -9px;
-     margin-bottom: 2.7rem;
+     margin-bottom: 4rem;
 }
 a.top-button {
     display: inline-block;
