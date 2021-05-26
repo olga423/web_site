@@ -159,12 +159,12 @@ a.navbar-call {
     background-position: left top;
     max-width: 1300px;
     margin: 0 auto;
-    height: 40vmax;
+    height: 39vmax;
     color: #fff;
     letter-spacing: -0.4px;
 }
 .top-box {
-    margin-top: 8%;
+    margin-top: 9%;
 }  
 .top-container h1 {
      margin-bottom: 2.7rem;
@@ -181,6 +181,7 @@ a.navbar-call {
      margin-bottom: 2.7rem;
 }
 a.top-button {
+    display: inline-block;
     color: #fff;
     background-color: #F05A4F;
     }
@@ -227,7 +228,7 @@ a.top-button:hover {
 }
 .courses .card-text {
  	color: #5C5C5C;
- 	margin-bottom: 80px;
+ 	margin-bottom: calc(80px - 25px);
  }    
  .courses .card-link {
     color: #F05A4F;
