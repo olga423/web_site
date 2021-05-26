@@ -543,7 +543,7 @@ a.question-link:hover, a.question-link:focus  {
 }
     .navbar-collapse {
         padding: 20px 0 30px;
-        height: 75vh; 
+        height: 90vh; 
     }
     .navbar-collapse .nav-item {
         margin-bottom: 0.4rem;
