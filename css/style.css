@@ -156,15 +156,18 @@ a.navbar-call {
     background-image: url(../img/pic5.3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left top;
+    background-position: 50% 0%;
     max-width: 1300px;
+    min-height: 47vmax;
     margin: 0 auto;
-    height: 40vmax;
     color: #fff;
     letter-spacing: -0.4px;
 }
+.text-container {
+    margin-top: 12%;
+}
 .top-box {
-    margin-top: 9%;
+    text-align: left;
 }  
 .top-container h1 {
      margin-bottom: 2.7rem;
@@ -359,8 +362,7 @@ a.question-link {
     display: block;
     text-align: left;
     text-transform: uppercase;
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid #A9A9A9;
+    padding: 1rem 2rem;
     border-radius: 0px;
     font-weight: 500;
     font-size: 13px;
@@ -369,6 +371,12 @@ a.question-link {
     background-repeat: no-repeat;
     background-position: 96% 50%;
     background-size: 1rem;  
+}
+.question-block {
+    border-bottom: 1px solid #A9A9A9;
+}
+.question-block:first-of-type {
+    border-top: 1px solid #A9A9A9;
 }
 a.question-link:focus {
      box-shadow: none;
@@ -562,8 +570,8 @@ a.question-link:hover, a.question-link:focus  {
     a.navbar-call {
         display: block;
 }
-   .top-box {
-      top: 10%;
+    .top-container {
+         min-height: 55vmax;
   }
    .select-box-one, .select-box-two  {
       margin-bottom: 2.3rem;
@@ -602,12 +610,21 @@ a.question-link:hover, a.question-link:focus  {
      }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
+    body {
+       font-size: 15px;
+}
     .section h4 {
         margin-bottom: 2rem !important;
      }
-    .top-container h1, .top-text-two {
+     .top-container {
+         min-height: 78vmax;
+  }
+    .top-container h1, {
         margin-bottom: 1.8rem;
+    }
+    .top-text-two {
+        margin-bottom: 3rem;
     }
      .courses .card-text {
         margin-bottom: 55px;
@@ -649,14 +666,12 @@ a.question-link:hover, a.question-link:focus  {
         border-bottom: 1px solid #000053;
     }
     .top-container h1 {
-         font-size: 2rem;
-         margin-bottom: 1rem;
+         font-size: 1.8rem;
      }
     .top-text {
         font-size: 0.9rem;
     }
     .top-text-two {
-        margin-bottom: 1.5rem;
         margin-top: 0;
     }
     .carousel-control-prev, .carousel-control-next {
@@ -676,22 +691,12 @@ a.question-link:hover, a.question-link:focus  {
       left: 83%;
 } 
     a.question-link {
-       padding: 1.1rem 1rem;
+       padding: 1rem;
        font-size: 12px;
    }
     .contacts {
        font-size: 15px;
     }
-}
-
-@media (max-width: 413.98px) { 
-     .top-container h1 {
-        font-size: 1.8rem;
-     }
-     .top-container {
-        height: 35vmax;
-}
-    
 }
 
 @media (max-width: 375.98px) {
@@ -701,19 +706,12 @@ a.question-link:hover, a.question-link:focus  {
     .navbar-expand-lg>.container-fluid {
         padding: 0 10px;
     }
-    a.question-link {
-       padding: 1.1rem 0.5rem;
-       font-size: 12px;
-   }
     .contacts {
         font-size: 14px;
     }
 }
 
-@media (max-width: 321.98px) {
-    .top-container {
-        height: 52vmax;
-}
+@media (max-width: 320.98px) {
     .carousel-control-prev, .carousel-control-next {
         display: none;
     }
