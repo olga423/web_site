@@ -152,7 +152,6 @@ a.navbar-call {
 
 /**       top-container         **/
 .top-container {
-    position: relative;
     background-image: url(../img/pic5.3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,13 +162,19 @@ a.navbar-call {
     color: #fff;
     letter-spacing: -0.4px;
 }
-.text-container {
-    margin-top: 12%;
+.flex-box {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
 }
-.top-box {
+.flex-box>.container-fluid {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.text-container {
     text-align: left;
-    padding: 3rem 0;
-}  
+}
 .top-container h1 {
      margin-bottom: 2.7rem;
 }
@@ -665,6 +670,7 @@ a.question-link:hover, a.question-link:focus  {
         background-image: none;
         color: #000053;
         border-bottom: 1px solid #000053;
+        background-color: rgb(244 244 251 / 50%);
     }
     .top-container h1 {
          font-size: 1.8rem;
