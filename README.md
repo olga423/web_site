@@ -4,5 +4,5 @@
 * Фреймворк Bootstrap 4.
 * Адаптивная вёрстка.
 
-Для просмотра проекта пройдите по ссылке https://olga423.github.io/web_site/
+Посмотреть проект можно по ссылке https://olga423.github.io/web_site/
 
