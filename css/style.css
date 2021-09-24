@@ -62,14 +62,12 @@ body {
   transition: 0.4s;
 }
 .change .line1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-41deg) translate(-4px, 6px) ;
 }
 .change .line2 {
   opacity: 0;
 }
 .change .line3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(41deg) translate(-5px, -7px) ;
 }
 
